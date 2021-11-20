@@ -23,6 +23,8 @@ Each flower has five parameters (represented by float numbers). The various algo
 ***
 **Perceptron Algorithm:** The algorithm multiplies each feature of the flower by an array of weights. Each labeling of the flowers has different weights, and the multiplication is done with each of them. The labeling chosen for a flower in the test set was chosen according to which weight resulted in a maximum value. When there is an error in the prediction of the training set, the weights change as follows:
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i +\pi} =x%2B1">
+
 ![formula](https://render.githubusercontent.com/render/math?math=\color{white}\large\f(x)=sin(x))
 
 ```

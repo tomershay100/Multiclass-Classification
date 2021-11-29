@@ -93,3 +93,5 @@ The training data set file should contain a number of lines, so that each line c
 	 
 ## Footnote:
 As you can see, there are a number of additional files. The files contain different graphs of different experiments in the program (for example, changing the value of the learning rate or changing the feature that is downloaded, etc.). In addition, it contains a report in the Hebrew language that explains the implementation of the algorithms, the experiments performed and the graphs.	 
+
+In addition, there is also the label file of the test file, called test_y.txt. You can run the algorithm and check my accuracy percentages (which stand at ```96.66%``` in KNN, ```94.86%``` in perceptron, ```96.26%``` in SVM and ```94.25%``` in PA).

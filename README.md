@@ -71,3 +71,20 @@ In order to run the program, it must provide 4 arguments:
 * Fourth, a path to the output file to which the predictions of each of the algorithms will be written.
 
 The training data set file should contain a number of lines, so that each line consists of 5 floating numbers separated by commas. So is the test set file. The label file consists of the same number of rows of the training set file and contains one numeric value (between 0 and 2) in each row.
+
+## Dependencies
+* [Python 3.6+](https://www.python.org/downloads/)
+* Git
+* [NumPy](https://numpy.org/install/)
+
+## Installation
+
+1. Open the terminal
+2. Clone the project by:
+	```
+	$ git clone https://github.com/tomershay100/Multiclass-Classification.git
+	```	
+3. Run the ```main.py``` file:
+	```
+	$ python3 main.py train_x.txt train_y.txt test_x.txt output.txt
+	 ```

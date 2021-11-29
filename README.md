@@ -62,3 +62,12 @@ knn: 1, perceptron: 2, svm: 1, pa: 1
 knn: 2, perceptron: 2, svm: 2, pa: 1
 ...
 ```
+
+### Running Instructions
+In order to run the program, it must provide 4 arguments:
+* First, a path to the ```txt``` file that contains the training data set.
+* Second, a path to the ```txt``` file that contains the labels of each row in the training data set.
+* Third, a path to the ```txt``` file that contains the test set.
+* Fourth, a path to the output file to which the predictions of each of the algorithms will be written.
+
+The training data set file should contain a number of lines, so that each line consists of 5 floating numbers separated by commas. So is the test set file. The label file consists of the same number of rows of the training set file and contains one numeric value (between 0 and 2) in each row.

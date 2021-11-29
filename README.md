@@ -51,3 +51,14 @@ Each flower has five parameters (represented by float numbers). The various algo
     
     ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{\text{where%20}\tau\text{is%20set%20to:%20%20}\tau=\frac{\ell\left(w,x,y\right)}{2\cdot\||x||^2}})
  
+### Program Structure
+The code is divided into 4 main functions. In fact, one function per algorithm. Given the training and test files, normalization is performed according to zscore normalization and feature selection is performed too. Then, the four algorithms are called and each in turn returns a list of predictions for each point in the test set. The program exports all the lists to an output file whose contents are briefly explained in the next section.
+
+### About The Output File
+All the predictions of each of the algorithms are exported to an output file whose name is received as input to the program. The file contains the data as follows:
+```
+knn: 0, perceptron: 0, svm: 0, pa: 1
+knn: 1, perceptron: 2, svm: 1, pa: 1
+knn: 2, perceptron: 2, svm: 2, pa: 1
+...
+```

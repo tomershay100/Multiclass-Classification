@@ -9,6 +9,7 @@ Implementation of couple of machine learning algorithms for classification on th
     - [Running Instructions](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#running-instructions)
 2. [Dependencies](#dependencies) 
 3. [Installation](#installation)
+4. [Footnote](#footnote)
 
 ## General
 
@@ -88,3 +89,7 @@ The training data set file should contain a number of lines, so that each line c
 	```
 	$ python3 main.py train_x.txt train_y.txt test_x.txt output.txt
 	 ```
+	 
+	 
+## Footnote:
+As you can see, there are a number of additional files. The files contain different graphs of different experiments in the program (for example, changing the value of the learning rate or changing the feature that is downloaded, etc.). In addition, it contains a report in the Hebrew language that explains the implementation of the algorithms, the experiments performed and the graphs.	 
